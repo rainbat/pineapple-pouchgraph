@@ -22,7 +22,7 @@ require($directory."includes/vars.php");
 <script type="text/javascript">
      
     var ENTER_KEY = 13;      
-    var remoteCouch = 'http://espresso.appuccino.ch:5984/pinehack';
+    var remoteCouch = 'http://<yourserver.ch>:5984/pinehack';
     var db = new PouchDB( remoteCouch, {
       ajax: {
         headers: {
