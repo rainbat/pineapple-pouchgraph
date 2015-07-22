@@ -26,7 +26,7 @@ require($directory."includes/vars.php");
     var db = new PouchDB( remoteCouch, {
       ajax: {
         headers: {
-          Authorization: 'Basic ' + btoa('dom:domdom')
+          Authorization: 'Basic ' + btoa('<user>:<password>')
         }
       }
     });
